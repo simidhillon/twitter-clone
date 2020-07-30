@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery.js"></script>
+    <script src="data_generator.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter Clone</title>
+  </head>
+  <body>
+    <h1 id="heading">Twitter Clone</h1>
+    <div id="buttons">
+      <button id="update-tweets-button">Update New Tweets</button>
+    </div>
+      <form id="create-message">
+        <label for="visitor">Username:</label>
+        <input type="text" id="visitor" name="visitor"><br>
+        <label for="visitor_message">Message:</label>
+        <input type="text" id="visitor_message" name="visitor_message"><br>
+        <input type="submit" value="Submit" id="submit_button">
+      </form>
+
+    <div id="container">
+      <div id="default-tweet">Looks like you haven't tweeted yet!</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+  </body>
+</html>
+
+
